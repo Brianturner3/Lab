@@ -43,5 +43,5 @@ app.use("*",function(req,res){
 
 var port = process.env.PORT || 8080;
 app.listen(port,function(){
-	console.log("Connected at Port 8080");
+	console.log("Connected");
 });
