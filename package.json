@@ -19,7 +19,7 @@
     "pug": "^2.0.0-beta11"
   },
   "engines" : {
-    "node" : "6.10.0",
+    "node" : "6.10.0"
   },
   "dependencies": {
     "express": "^4.15.2",
