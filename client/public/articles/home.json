@@ -1,0 +1,18 @@
+
+	[
+		{
+			"title" : "Joey Badass",
+			"src" : "/images/1999Cover.jpeg",
+			"desc" : "The 17-year-old Brooklyn rapper Joey Bada$$, the most visible member of the Progressive Era artist collective, is a young man with an old soul, and his debut mixtape showcases a prodigous MC with a vision."
+		},
+		{
+			"title" : "Kendrick Lamar",
+			"src" : "/images/gkbcCover.jpg",
+			"desc" : "Good Kid, M.A.A.D City (stylized as good kid, m.A.A.d city) is the second studio album by American rapper Kendrick Lamar. The album was released on October 22, 2012, by Top Dawg Entertainment, Aftermath Entertainment, and was distributed by Interscope Records."
+		},
+		{
+			"title" : "Drake",
+			"src" : "/images/morelifeCover.jpeg",
+			"desc" : "More Life is a musical project by Canadian rapper Drake, described by the artist as a playlist. It was released on March 18, 2017, by OVO Sound, Young Money Entertainment, Cash Money Records, and Republic Records."
+		}
+	]

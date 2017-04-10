@@ -1,0 +1,25 @@
+extends ./parent.pug
+
+block content
+	div.container
+		div.row
+			div.col-xs-12
+				div.col-xs-12.col-md-8.col-md-offset-1.jumbotron#myjumbotron
+					h1#titleMain  Brian Turner
+					p Future stay at home dad.
+	div.container
+		div.row
+			div.col-xs-12
+				div.col-xs-12.col-md-8.col-md-offset-1#myBiography
+					p Dear Friends,<br><br>After nearly a decade portraying The Most Interesting Man in the World, I am thrilled to report my life of adventure is continuing. Not as an actor. As a stay-at-home-father. Starting today, I'm going to dedicate the rest of my life to my home. As a stay-at-home father I will make sure to stay on top of all my shows, complain about the food my wife cooks and eat nothing but cheese boards. For those who want to stay in touch (you can sign up below) I'm offering a winner a weekend in Vermont. Fishing. Hiking. Martinis. On me.<br><br>You coming?
+	div.container
+		div.row
+			div.col-xs-12.col-sm-4.col-md-offset-2#myBioButton
+				a(href='/bio')#myBioAnchor BIO
+			div.col-xs-12.div.col-sm-4.col-sm-offset-1#myHomeButton
+				p#myInfoQuote MORE LIFE<BR>CHEESE<BR>MORE MORE
+		div.row
+			div.col-xs-12.col-sm-offset-2
+				include ./article.pug
+				+article(articles[0].title,articles[0].src,articles[0].desc)
+				+article(articles[1].title,articles[1].src,articles[1].desc)

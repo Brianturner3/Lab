@@ -1,0 +1,17 @@
+extends ./parent.pug
+
+block content
+	div.container
+		div.row
+			div.col-xs-12
+				div.col-xs-12.col-md-8.col-md-offset-1.jumbotron#myjumbotron
+					h1#titleMain  Brian Turner
+					p Cheese boards worst nightmare.
+	div.container
+		div.row
+			div.col-md-10.col-md-offset-1
+			include ./article.pug
+			+article(articles[0].title,articles[0].src,articles[0].desc)
+			+article(articles[1].title,articles[1].src,articles[1].desc)
+			+article(articles[2].title,articles[2].src,articles[2].desc)
+			+article(articles[3].title,articles[3].src,articles[3].desc)

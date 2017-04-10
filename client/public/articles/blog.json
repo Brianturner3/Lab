@@ -1,0 +1,22 @@
+[
+	{
+		"title" : "Perfection is Overated",
+		"src" : "/images/blog1.jpg",
+		"desc" : "Simply put. Perfection is overated"
+	},
+	{
+		"title" : "Life at 20",
+		"src" : "/images/blog2.jpg",
+		"desc" : "No need to expand, but life at 20 is difficult."
+	},
+	{
+		"title" : "Express Yourself",
+		"src" : "/images/blog3.jpg",
+		"desc" : "Find art that moves you. Do things that inspire you. Live more."
+	},
+	{
+		"title" : "What Makes You Happy",
+		"src" : "/images/blog4.jpg",
+		"desc" : "Puppies, Cheese, and Gossip Girl"
+	}
+]

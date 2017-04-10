@@ -1,0 +1,19 @@
+mixin social-icon(url)
+	li: a: img(src=url)
+
+footer#myfooter
+	div.container-fluid
+		div.row
+			div.col-xs-12
+				div.col-xs-12.col-md-4
+					div
+						h3 Information
+						p Just a fourth year computer science student from Ryeson University
+				div.col-xs-12.col-md-4
+					h3 Contact
+					ul
+						li: a(href='https://www.facebook.com/'): img(src='/images/facebook-logo-button.svg').icon
+						li: a(href='https://www.linkedin.com/'): img(src='/images/linkedin-button.svg').icon
+						li: a(href='https://www.wikipedia.com/'): img(src='/images/wikipedia-logo.svg').icon
+				div.col-xs-12.col-md-4
+					p All Rights Reserved 2017
